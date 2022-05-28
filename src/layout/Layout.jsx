@@ -33,7 +33,7 @@ const Layout = () => {
         </nav>
       </div>
       {/* revisar esto repasar eloutlet vendria a ser en este caso Inicio mirar rutas*/}
-      <div className="md:w-3/4">
+      <div className="md:w-3/4 p-10 md:h-screen overflow-scroll">
         <Outlet />
       </div>
     </div>
