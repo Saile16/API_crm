@@ -4,6 +4,7 @@ import Layout from "./layout/Layout";
 import Inicio from "./paginas/Inicio";
 import NuevoCliente from "./paginas/NuevoCliente";
 import EditarCliente from "./paginas/EditarCliente";
+import VerCliente from "./paginas/VerCliente";
 function App() {
   // return <div className="App">asdasdsa</div>;
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="nuevo" element={<NuevoCliente />} />
           {/* de esa manera podemos consultar los id */}
           <Route path="editar/:id" element={<EditarCliente />} />
+          <Route path=":id" element={<VerCliente />} />
         </Route>
       </Routes>
     </BrowserRouter>
