@@ -1,3 +1,44 @@
 {
-  "clientes": []
+  "clientes": [
+    {
+      "nombre": "Alexander1",
+      "empresa": "Alexander Ent1",
+      "email": "alrlucano@gmail.com",
+      "telefono": "5144888554",
+      "notas": "Prueba 1 cliente",
+      "id": 1
+    },
+    {
+      "nombre": "Alexander2",
+      "empresa": "Alexander Ent2",
+      "email": "alrlucano@gmail.com",
+      "telefono": "2222222222222222",
+      "notas": "Prueba 2 cliente",
+      "id": 2
+    },
+    {
+      "nombre": "Karen 3 ",
+      "empresa": "Karen 3",
+      "email": "Karen3@gmail.com",
+      "telefono": "33333",
+      "notas": "asd131241124124",
+      "id": 3
+    },
+    {
+      "nombre": "123312123",
+      "empresa": "231321123123",
+      "email": "3213211323126@gmail.com",
+      "telefono": "123321231231231",
+      "notas": "asd1q2312",
+      "id": 4
+    },
+    {
+      "nombre": "Test4",
+      "empresa": "test4",
+      "email": "sailex1030@gmail.com",
+      "telefono": "062514462",
+      "notas": "asdasdasd",
+      "id": 5
+    }
+  ]
 }
